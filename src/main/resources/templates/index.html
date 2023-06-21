@@ -1,0 +1,22 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+</head>
+<body>
+
+<h2> Hotel</h2>
+<ul>
+  <li><a href="/rooms/list" th:href="@{/rooms/list}"> Room List</a></li>
+  <li><a href="/rooms/signup" th:href="@{/rooms/signup}"> Enter your detail</a></li>
+  <li><a href="/rooms/reservation" th:href="@{/rooms/reservation}"> Reserve Your Room</a></li>
+  <li><a href="/rooms/bookingList" th:href="@{/rooms/bookingList}"> Your booking</a></li>
+</ul>
+
+</body>
+</html>
